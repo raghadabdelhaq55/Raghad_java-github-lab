@@ -20,7 +20,6 @@ public class JobManager {
             String msg = "[Proxy] Permission denied: User '" + user.getName()
                     + "' does not have permission for job type '" + job.getType() + "'";
             logger.log(msg);
-            // ما بنرمي استثناء، بس نطبع مثل الصورة
             return;
         }
 

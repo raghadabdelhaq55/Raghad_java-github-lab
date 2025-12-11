@@ -8,8 +8,8 @@ public class Job {
 
     private final String id;
     private final JobType type;
-    private final String name;    // اسم الـ job (Standard Email, Monthly Report, ...)
-    private final String config;  // إعدادات job (format=HTML;priority=normal)
+    private final String name;
+    private final String config;
     private final JobStrategy strategy;
 
     public Job(String id, JobType type, String name, String config) {
